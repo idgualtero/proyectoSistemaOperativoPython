@@ -1,7 +1,7 @@
 from SistemaOperativo import SistemaOperativo
 
 def main():
-    print("Hello, World!")
+    print("Gestion de Archivos y Carpetas!")
     so = SistemaOperativo()
     so.load()
 

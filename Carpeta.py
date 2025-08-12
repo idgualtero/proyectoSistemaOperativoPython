@@ -2,8 +2,8 @@ from typing import List
 from ElementoSistema import ElementoSistema
 
 class Carpeta(ElementoSistema):
-    def __init__(self, nombre: str):
-        super().__init__(nombre)
+    def __init__(self, nombre: str, tamano: int):
+        super().__init__(nombre, tamano)
         self.elementos: List[ElementoSistema] = []
 
     def agregar_elemento(self, elemento: ElementoSistema):
